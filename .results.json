@@ -1,0 +1,59 @@
+{
+  "tests": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Object.proxyGetter [as get] (node_modules/chai/lib/chai/utils/proxify.js:75:17)\n    at Proxy.assertWith (node_modules/chai-spies/lib/spy.js:283:30)\n    at Proxy.chainableMethodWrapper (node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at Context.it (test/index.js:21:41)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Object.proxyGetter [as get] (node_modules/chai/lib/chai/utils/proxify.js:75:17)\n    at Proxy.assertWith (node_modules/chai-spies/lib/spy.js:283:30)\n    at Proxy.chainableMethodWrapper (node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at Context.it (test/index.js:30:41)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Object.proxyGetter [as get] (node_modules/chai/lib/chai/utils/proxify.js:75:17)\n    at Proxy.assertWith (node_modules/chai-spies/lib/spy.js:283:30)\n    at Proxy.chainableMethodWrapper (node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at Context.it (test/index.js:21:41)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Object.proxyGetter [as get] (node_modules/chai/lib/chai/utils/proxify.js:75:17)\n    at Proxy.assertWith (node_modules/chai-spies/lib/spy.js:283:30)\n    at Proxy.chainableMethodWrapper (node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at Context.it (test/index.js:30:41)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    },
+    {
+      "title": "\"after each\" hook",
+      "fullTitle": "lib \"after each\" hook",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'passes' of undefined\n    at withReplacedStdout (node_modules/mocha-multi/mocha-multi.js:197:14)\n    at withReplacedStdout (node_modules/mocha-multi/mocha-multi.js:146:12)\n    at Runner.runner.on.eventArgs (node_modules/mocha-multi/mocha-multi.js:196:7)",
+        "message": "Cannot read property 'passes' of undefined",
+        "uncaught": true
+      }
+    }
+  ],
+  "passes": []
+}
